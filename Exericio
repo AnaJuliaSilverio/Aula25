@@ -1,0 +1,30 @@
+1. Dada a classe abaixo:
+public class Azul{
+static int cor;
+public static String NOME = "Azul";
+public Azul(int tonalidade) { ... }
+public int getTonalidade() {return tonalidade;}
+public void setTonalidade(int tonalidade) { ... }
+public void tornarMaisEscuro() { ... }
+void calcularTonalidade() { ... }
+private void TornarTonalidadeMaisEscura(int valor) { ... } }
+Responda:
+a. Quais são as variáveis de classe?
+Resposta:cor e nome
+
+b. Quais são os construtores?
+Resposta:public Azul(int tonalidade)
+
+c. Quais métodos fazem parte da interface dessa classe?
+Resposta: getTonalidade(),setTonalidade(),tornarMaisEscuro(),calcularTonalidade(),TornarTonalidadeMaisEscura(int valor)
+
+d. Sem mudar o código que está escrito. Implemente o método setTonalidade e a variável que ele necessita.
+e. Sem mudar o código que está escrito. Implemente o construtor.
+
+f. O código abaixo roda? Justifique.
+var color = new Blue();
+Resposta:Não.Primeiramente var não é uma palavra reservada do Java então não podemos usar para declarar um tipo.
+Outro ponto é que a classe se chama Azul e não Blue,além disso recebe o parametro tonalidade no seu construtor.
+Logo,a maneira correta seria: Azul color = new Azul();
+
+g. Crie uma Main e implemente uma lógica a classe Azul.
